@@ -57,13 +57,16 @@
   overflow: hidden;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
+  border: none;
   display: flex;
+  outline: none;
   flex-direction: column;
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+  border: 1px solid gold;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
 }
 
 .project-image-wrapper {

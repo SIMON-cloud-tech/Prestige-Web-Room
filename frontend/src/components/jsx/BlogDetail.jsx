@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import SEO from './SEO';
 import '../css/BlogDetail.css';
 
 function BlogDetail() {
@@ -70,6 +71,14 @@ function BlogDetail() {
   // ─── MAIN RENDER ────────────────────────────────────────
   return (
     <div className="blog-detail">
+      <SEO
+        title={blog.title}
+        description={blog.excerpt || blog.shortDesc}
+        keywords={blog.tags?.join(', ')}
+        image={blog.featuredImage}
+        canonicalPath={`/blog/${blog.slug}`}
+        type="article"
+      />
       <div className="blog-detail-container">
         
         {/* Back Button */}

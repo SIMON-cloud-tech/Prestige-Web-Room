@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import SEO from './SEO';
 import { FaArrowLeft, FaExternalLinkAlt } from 'react-icons/fa';
 import '../css/ProjectDetail.css';
 
@@ -65,6 +66,13 @@ function ProjectDetail() {
 
   return (
     <section className="project-detail">
+      <SEO
+        title={project.title}
+        description={project.shortDescription}
+        keywords={`${project.title}, ${project.client}, software project Kenya`}
+        canonicalPath={`/projects/${project.slug}`}
+        type="article"
+      />
       <div className="project-detail-container">
         {/* Back Button */}
         <Link to="/projects" className="project-detail-back">

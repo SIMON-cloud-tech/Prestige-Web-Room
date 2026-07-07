@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import SEO from './SEO';
 import { FaArrowLeft } from 'react-icons/fa';
 import {
   FaMoneyBillWave,
@@ -88,6 +89,13 @@ function ServiceDetail() {
 
   return (
     <section className="service-detail">
+      <SEO
+        title={service.title}
+        description={service.shortDescription}
+        keywords={`${service.title}, ${service.slug}, software development Kenya`}
+        canonicalPath={`/services/${service.slug}`}
+        type="article"
+      />
       <div className="service-detail-container">
         {/* Back Button */}
         <Link to="/services" className="service-detail-back">

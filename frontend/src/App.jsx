@@ -1,6 +1,7 @@
 //import requisite modules
 import React from 'react';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import SEO from './components/jsx/SEO';
 
 //import global components
 import Navbar from './components/jsx/Navbar';
@@ -23,6 +24,7 @@ import TestimonialsPage from './pages/TestimonialsPage';
 function App() {
   return (
     <>
+      <SEO />
     {/*Global components to appear in all pages, 
     this includes the Navbar, 
     Footer and Chatbot* and so are declared outside the routes*/}

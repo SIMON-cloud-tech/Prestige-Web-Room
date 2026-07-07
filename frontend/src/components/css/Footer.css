@@ -13,7 +13,6 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
 /* ════════════════════════════════════════════════════════════════
    SECTION 1: TOP SECTION (3 vertical divs)
    ════════════════════════════════════════════════════════════════ */
@@ -149,6 +148,12 @@
   height: 60px;
   object-fit: contain;
   border-radius: 8px;
+}
+.whatsapp-btn{
+  width: max-content;
+}
+.whatsapp-icon{
+  font-size: 2rem;
 }
 /* ════════════════════════════════════════════════════════════════
    SECTION 2: MIDDLE SECTION (2 vertical divs)

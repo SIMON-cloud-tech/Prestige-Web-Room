@@ -66,7 +66,7 @@ The structure is intentionally simple:
 - The contact route passes the data to the controller
 - The controller sanitizes and validates the input
 - The submission is saved to contacts.json
-- An email may also be sent through the email utility
+- An email is then  sent dually through the email utility
 
 ### Example: chatbot interaction
 - The chatbot sends a request to /api/chatbot

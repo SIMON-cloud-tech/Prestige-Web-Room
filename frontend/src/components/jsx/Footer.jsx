@@ -8,6 +8,7 @@ import {
   FaTwitter,
   FaLinkedin,
   FaGithub,
+  FaWhatsapp,
   FaPhone,
   FaClock,          // ✅ ADDED
 } from 'react-icons/fa';
@@ -71,6 +72,14 @@ const Footer = () => {
                   </p>
                 </span>
               </div>
+                  <a 
+                     href="https://whatsapp.com/channel/0029VbCgtzl84OmAM5sizM0X" 
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     className="whatsapp-btn">
+                     <FaWhatsapp className="whatsapp-icon" />
+                     Join our WhatsApp Channel
+                   </a>
             </div>
           </div>
         </div>
@@ -84,7 +93,7 @@ const Footer = () => {
 
             <div className="footer-socials">
               <a
-                href="https://linkedin.com/company/jamsi"
+                href="www.linkedin.com/in/simon-mbithi-33b61b403"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
@@ -104,7 +113,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://github.com/jamsi"
+                href="https://github.com/SIMON-cloud-tech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
@@ -124,7 +133,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://facebook.com/jamsi"
+                href="https://facebook.com/simon.mbithi.991238"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"

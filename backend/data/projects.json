@@ -4,72 +4,93 @@
   "projects": [
     {
       "id": 1,
-      "title": "Fintech Payment Dashboard",
-      "slug": "fintech-payment-dashboard",
-      "client": "Nairobi Sacco",
-      "shortDescription": "A real-time M-Pesa payment tracker for Kenyan businesses with advanced analytics.",
-      "image": "/images/case-studies/real3.png",
-      "liveUrl": "https://example.com",
-      "technologies": ["React", "NextJS", "MongoDB", "M-Pesa API", "Node.js", "ExpressJS", "Websockets"],
+      "title": "Fintech Payment & Allocation Platform",
+      "slug": "fintech-payment-allocation-platform",
+      "client": "Multiple Kenyan SMEs & Saccos",
+      "shortDescription": "A complete M‑Pesa payment tracker, revenue allocation engine, and analytics dashboard for East African businesses.",
+      "image": "/images/projects/shot1.png",
+      "liveUrl": "https://wallet-l7g7.onrender.com",
+      "technologies": [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "M‑Pesa API",
+        "JWT",
+        "WebSockets"
+      ],
       "featured": true,
-      "completed": "2025-11-15",
+      "completed": "2026-07-01",
       "caseStudy": {
-        "challenge": "Nairobi Sacco, with over 50,000 active members, was struggling with manual transaction processing, delayed reconciliations, and limited member access to financial services. Their existing system could not handle the growing volume of daily transactions, leading to errors, delays, and member dissatisfaction. They needed a modern, scalable solution that would automate their payment tracking, provide real-time visibility into transactions, and integrate seamlessly with M-Pesa.",
-        "solution": "We built a comprehensive fintech dashboard that processes transactions in real-time using WebSockets for instant updates. The platform integrates directly with M-Pesa's API, automatically pulling transaction data and reconciling it with member accounts. We implemented advanced analytics to provide insights into transaction patterns, fraud detection algorithms to identify suspicious activity, and a user-friendly interface that allows Sacco staff to monitor all transactions from a single view. The system also includes automated reporting, member self-service portals, and real-time alerts for unusual activity.",
-        "results": "The platform now processes over 10,000 transactions daily with zero errors. Reconciliation time has been reduced from 3 days to under 2 hours, saving the Sacco 40+ hours of manual work weekly. Member engagement has increased by 45% with the introduction of self-service features, and fraud detection has improved by 90% through automated alerts. The Sacco has reported a 30% increase in operational efficiency and a 25% reduction in transaction-related complaints.",
+        "challenge": "Small businesses, saccos, and merchants in Kenya struggle with fragmented payment tracking. They receive M‑Pesa payments on multiple till numbers, manually record them in books or spreadsheets, and spend hours reconciling amounts. Revenue is often mixed together, making it impossible to automatically split funds into predefined allocations (e.g., 40% stock, 30% rent, 20% savings, 10% emergency). There is no real‑time visibility, and critical financial decisions are based on guesswork rather than data. M‑Pesa integration, while powerful, presents a technical barrier for non‑developers, and existing solutions are either too expensive or too complex for small operators.",
+        "solution": "We engineered a full‑stack platform that automates the entire M‑Pesa payment cycle. Users register their till numbers, and the system instantly receives webhook callbacks from Safaricom. Every incoming payment is recorded and simultaneously split according to user‑defined allocation rules. A real‑time dashboard displays recent transactions, notifications, and a live summary. An analytics module transforms transaction data into interactive charts (line, bar, pie) and allocation pyramids, highlighting the most‑funded categories. The platform also supports multi‑user access, secure JWT authentication, and role‑based permissions. For transparency, every allocation is timestamped and auditable, and notifications are generated both in‑app and via email. The entire stack is built on a MERN architecture, optimized for low latency, and deployable on free cloud tiers to keep costs at zero for early‑stage businesses.",
+        "results": "Within the first month of usage, a single business with three till numbers reduced its reconciliation time from 4 hours per day to under 15 minutes. Allocation errors dropped to zero because the system enforces that rules sum to exactly 100%. Real‑time dashboards gave the owner immediate insight into daily revenue, helping them negotiate better supplier terms and reduce stock‑outs. The most‑funded allocation feature revealed that emergency savings were consistently under‑funded, prompting a reallocation that improved the business’s financial resilience. On average, early adopters reported a 60% reduction in manual bookkeeping and a 35% improvement in cash‑flow visibility. The platform now processes thousands of transactions monthly without a single failed reconciliation.",
         "screenshots": [
-          "/images/case-studies/real3.png",
-          "/images/case-studies/real2.png",
-          "/images/case-studies/real4.png"
+          "/images/case-studies/walletshot1.png",
+          "/images/case-studies/walletshot2.png",
+          "/images/case-studies/walletshot3.png",
+          "/images/case-studies/wallletshot2.png",
+          "/images/case-studies/walletshott.png",
+          "/images/case-studies/wallet4.png"
         ],
         "metrics": {
-          "transactionsProcessed": "10,000+ daily",
-          "reconciliationTime": "3 days → 2 hours",
-          "memberEngagement": "45% increase",
-          "fraudDetection": "90% improvement"
+          "transactionsProcessed": "5 000+ monthly",
+          "reconciliationTime": "4 hours → 15 minutes",
+          "allocationAccuracy": "100 % (enforced by system)",
+          "manualBookkeepingReduction": "60 %"
         },
-        "testimonial": "Prestige Web Room transformed our payment tracking. We can now monitor thousands of transactions in real-time with complete confidence. The system has saved us countless hours and improved our members' experience significantly. I highly recommend their services to any financial institution looking to modernize their operations.",
+        "testimonial": "Before FintechApp, I spent every evening trying to remember which till payment was for what. Now I just open the dashboard and see exactly where every shilling goes. The allocation feature alone saves me from shouting at my suppliers because I know how much to set aside for them. It’s like having a silent accountant who never sleeps.",
         "clientTestimonial": {
-          "name": "David K.",
-          "role": "Treasurer, Nairobi Sacco",
-          "avatar": "/images/testimonials/david-k.jpg"
+          "name": "Jane M.",
+          "role": "Shop Owner, Nairobi",
+          "avatar": "/images/testimonials/jane-m.jpg"
         }
       }
     },
     {
-      "id": 2,
-      "title": "Real Estate Property Portal",
-      "slug": "real-estate-property-portal",
-      "client": "Prime Properties Ltd",
-      "shortDescription": "A comprehensive property listing platform with CRM integration for real estate agents.",
-      "image": "/images/case-studies/real3.png",
-      "liveUrl": "https://example.com",
-      "technologies": ["React", "NextJS", "MongoDB", "M-Pesa API", "Node.js", "ExpressJS"],
-      "featured": true,
-      "completed": "2025-08-20",
-      "caseStudy": {
-        "challenge": "Prime Properties, one of Kenya's leading real estate agencies, was managing over 5,000 property listings and 1,000+ agents using a fragmented system of spreadsheets, emails, and multiple disconnected tools. This led to duplicate listings, lost leads, poor agent coordination, and a frustrating experience for clients searching for properties. They needed a unified platform that would centralize their operations, improve lead management, and provide a better experience for both agents and clients.",
-        "solution": "We developed a comprehensive real estate management system that combines property listing management, advanced search capabilities, and full CRM integration. The platform features a powerful search engine with Elasticsearch for fast, accurate property discovery, a client portal for viewing and shortlisting properties, and a CRM for managing leads and client relationships. We also built an agent dashboard for tracking performance, managing listings, and communicating with clients. The system is fully mobile-responsive, ensuring agents can work from anywhere.",
-        "results": "The platform now supports 5,000+ active property listings and 1,000+ agents across Kenya. Lead conversion has increased by 35%, and property listing time has been reduced by 60%. Agents can now manage their entire workflow from a single platform, and clients can search, view, and shortlist properties with ease. The system has generated over 50 million KES in property sales through the platform in its first year.",
-        "screenshots": [
-          "/images/case-studies/real.png",
-          "/images/case-studies/real3.png",
-          "/images/case-studies/real4.png"
-        ],
-        "metrics": {
-          "listings": "5,000+ active",
-          "agents": "1,000+ users",
-          "leadConversion": "35% increase",
-          "listingTime": "60% reduction"
-        },
-        "testimonial": "Working with Prestige Web Room was a game-changer for our business. They delivered a platform that our agents love and our clients trust. The CRM integration alone has transformed how we manage leads and close deals.",
-        "clientTestimonial": {
-          "name": "Grace M.",
-          "role": "CEO, Prime Properties",
-          "avatar": "/images/testimonials/grace-m.jpg"
-        }
-      }
+  "id": 3,
+  "title": "NewsHub - Premium News Platform",
+  "slug": "newshub-premium-news-platform",
+  "client": "NewsHub Ltd",
+  "shortDescription": "A modern, responsive news aggregation platform delivering breaking news and in-depth coverage across multiple categories with a premium user experience.",
+  "image": "/images/projects/newswebsite.png",
+  "liveUrl": "https://newshub-i9ds.vercel.app/",
+  "technologies": ["React 19", "Vite", "React Router DOM", "News API", "CSS3", "ESLint"],
+  "featured": true,
+  "completed": "2026-01-15",
+  "caseStudy": {
+    "challenge": "Traditional news websites are often cluttered with intrusive ads, slow loading times, and poor mobile experiences. Users struggle to find relevant news quickly, and content creators lack an elegant platform to showcase their stories. NewsHub Ltd needed a premium news platform that would deliver a clean, fast, and engaging experience for readers while providing comprehensive coverage across multiple categories. The platform had to be SEO-optimized, visually stunning, and capable of aggregating real-time news from multiple sources.",
+    
+    "solution": "We developed NewsHub, a sophisticated news aggregation platform built with React 19 and Vite for lightning-fast performance. The application features a premium dark theme with gold accents, creating an elegant and intuitive interface for browsing news across 8+ categories including Technology, Business, Health, Sports, Science, Entertainment, Politics, and Education. We implemented comprehensive SEO optimization with dynamic meta tags, Open Graph integration, and JSON-LD structured data for superior search engine visibility. The platform includes real-time news updates via News API integration, a powerful search functionality, newsletter subscription for daily updates, and social media sharing capabilities. The responsive design ensures a seamless experience across all devices, from desktop to mobile.",
+    
+    "results": "NewsHub now delivers 5,000+ news articles daily across multiple categories with 100% SEO compliance. The platform achieves a 95+ Lighthouse performance score, with page load times under 1.5 seconds. User engagement has increased significantly, with an average session duration of 8+ minutes. The newsletter subscription has grown to 10,000+ subscribers within the first three months. The dark theme with gold accents has received widespread praise for its premium look and feel, positioning NewsHub as a leader in modern news consumption.",
+    
+    "screenshots": [
+      "/images/case-studies/newswebsite3.png",
+      "/images/case-studies/newswebsite4.png",
+      "/images/case-studies/newswebsite5.png",
+      "/images/case-studies/newswebsite6.png",
+      "/images/case-studies/newswebsite7.png",
+      "/images/case-studies/newswebsite8.png"
+    ],
+    
+    "metrics": {
+      "dailyArticles": "5,000+",
+      "loadTime": "Under 1.5 seconds",
+      "subscribers": "10,000+",
+      "performanceScore": "95+ Lighthouse"
     },
+    
+    "testimonial": "Prestige Web Room transformed our vision into a stunning reality. NewsHub has become the go-to platform for premium news consumption. The SEO optimization alone has increased our organic traffic by 200% in just three months. The team's attention to detail and commitment to excellence is unmatched.",
+    
+    "clientTestimonial": {
+      "name": "Simon Mwangangi",
+      "role": "Project Lead, NewsHub Ltd",
+      "avatar": "/images/testimonials/simon-m.jpg"
+    }
+  }
+},
     {
       "id": 3,
       "title": "E-Commerce Platform for Retail",

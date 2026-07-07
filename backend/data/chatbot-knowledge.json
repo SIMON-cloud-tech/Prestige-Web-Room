@@ -1,0 +1,143 @@
+{
+  "intents": [
+    {
+      "id": "welcome",
+      "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "how are you"],
+      "reply": "Hello! My name is Monica and I work with Prestige Web Room. We build custom software including websites, E-commerce platforms, mobile apps, and other software development solutions tailored to your needs."
+    },
+    {
+      "id": "services",
+      "keywords": ["services", "develop", "offer", "build", "provide", "do you create", "what do you do", "software", "development", "websites", "Apps", "Platforms"],
+      "reply": "We build custom web platforms, fintech solutions, e‑commerce engines, real estate systems, and content portals for African businesses. Our services include M‑Pesa integration, payment dashboards, inventory management, CRM systems, and scalable publishing platforms.",
+      "context": {
+        "mobile app": "We currently focus on web applications, but we can integrate with mobile apps built by other teams.",
+        "custom": "Every project is custom-built to your specific requirements."
+      }
+    },
+    {
+      "id": "fintech",
+      "keywords": ["fintech", "mpesa", "payment", "dashboard", "transactions", "mobile money", "sacco", "loan", "bank", "banking", "financial"],
+      "reply": "We build secure, enterprise‑grade fintech platforms with M‑Pesa integration, real‑time transaction monitoring, payment dashboards, fraud detection, and financial analytics.",
+      "context": {
+        "sacco": "We've worked with Nairobi Sacco, processing over 10,000 transactions daily with zero errors.",
+        "mpesa": "We integrate directly with M‑Pesa API for seamless payments and real‑time reconciliation.",
+        "dashboard": "Our dashboards provide real‑time visibility into all transactions with advanced reporting.",
+        "loan": "We can build loan management systems with automated approvals and repayment tracking."
+      }
+    },
+    {
+      "id": "ecommerce",
+      "keywords": ["ecommerce", "e-commerce", "store", "shop", "marketplace", "retail", "inventory", "cart", "checkout", "sell", "online store"],
+      "reply": "We build scalable e‑commerce platforms including online stores, multi‑vendor marketplaces, inventory management, and payment gateways (M‑Pesa, Visa, Mastercard).",
+      "context": {
+        "multi-vendor": "Our multi‑vendor marketplace supports 200+ sellers with automated commission handling.",
+        "inventory": "Real‑time inventory tracking across multiple channels and locations.",
+        "payment": "We integrate M‑Pesa, Visa, and Mastercard payment gateways for seamless checkout."
+      }
+    },
+    {
+      "id": "realestate",
+      "keywords": ["real estate", "property", "listing", "agent", "rent", "buy", "house", "apartment", "commercial"],
+      "reply": "We build comprehensive real estate platforms with property listing management, advanced search (location, price, bedrooms), CRM integration, and client management for agents and developers.",
+      "context": {
+        "crm": "Our CRM helps agents track leads, manage client relationships, and close deals faster.",
+        "agents": "We support 1,000+ agents managing 5,000+ listings across Kenya.",
+        "search": "Advanced search with filters for location, price range, bedrooms, and property type."
+      }
+    },
+    {
+      "id": "content",
+      "keywords": ["news", "content", "portal", "publishing", "blog", "media", "magazine", "article"],
+      "reply": "We build scalable publishing platforms that handle high traffic and rich media content (video, audio, images). Our solutions include content management, audience analytics, and monetization tools.",
+      "context": {
+        "analytics": "We provide audience insights and engagement tracking.",
+        "monetization": "We can integrate subscriptions, paywalls, and advertising revenue features."
+      }
+    },
+    {
+      "id": "pricing",
+      "keywords": ["price", "cost", "budget", "afford", "estimate", "quote", "how much", "cheap", "expensive", "pricing", "range","harge", "amount", "affordable"],
+      "reply": "Our pricing depends on project scope and complexity. We work with budgets ranging from KSH. 5,000 - 100,000+. Contact us for a custom quote tailored to your specific needs. We also offer payment plans and fixed‑price options.",
+      "context": {
+        "hourly": "Our hourly rate is KSH. 50 - 150 depending on the complexity and expertise required.",
+        "small": "We can work with smaller budgets for MVP (Minimum Viable Product) development.",
+        "consultation": "Our initial consultation is free. Contact us to discuss your project."
+      }
+    },
+    {
+      "id": "timeline",
+      "keywords": ["timeline", "duration", "how long", "time", "weeks", "months", "deadline", "schedule", "delivery", "turnaround"],
+      "reply": "Project timelines vary based on scope. A typical project takes 3 - 4 weeks from discovery to deployment. We provide regular demos and keep you involved throughout the process.",
+      "context": {
+        "quick": "We can deliver MVP in as little as 1-2 weeks for simple projects.",
+        "complex": "Complex projects with multiple integrations can take 3 - 6 weeks.",
+        "maintenance": "We provide ongoing support and maintenance after launch."
+      }
+    },
+    {
+      "id": "technology",
+      "keywords": ["technology", "tech", "stack", "framework", "react", "node", "python", "laravel", "vue", "database", "postgresql", "mysql", "mongodb", "api"],
+      "reply": "We use modern technologies including React, Node.js, Python/Django, Laravel, Vue.js, and PostgreSQL. We choose the best tech stack for your specific project requirements.",
+      "context": {
+        "mobile": "We build responsive web applications that work on all devices. For mobile apps, we can provide API development and integration.",
+        "database": "We work with PostgreSQL, MySQL, and MongoDB depending on your data needs.",
+        "hosting": "We deploy on cloud platforms like AWS, Google Cloud, or Oracle Cloud."
+      }
+    },
+    {
+      "id": "process",
+      "keywords": ["process", "how it works", "methodology", "approach", "steps", "agile", "scrum", "discovery", "development", "deployment"],
+      "reply": "Our process follows four steps: Discovery (learning your business), Architecture (designing secure, scalable systems), Development (building with clean code and regular demos), and Deployment (launching on reliable infrastructure).",
+      "context": {
+        "agile": "We follow Agile methodology with regular sprints and weekly demos.",
+        "communication": "We provide weekly updates and involve you in every decision.",
+        "testing": "We thoroughly test all features before deployment."
+      }
+    },
+    {
+      "id": "contact",
+      "keywords": ["contact", "reach", "email", "phone", "call", "whatsapp", "message", "get in touch", "address", "location"],
+      "reply": "You can reach us via email at simonmbithi143@gmail.com, phone at +254 703 433 014, or WhatsApp at +254 703 433 014. We respond within 24 hours.",
+      "context": {
+        "location": "We are based in Nairobi, Kenya, and work with clients across Africa and globally.",
+        "hours": "We are available Monday to Friday, 8 AM – 6 PM EAT.",
+        "visit": "We can meet in person for clients in Nairobi."
+      }
+    },
+    {
+      "id": "support",
+      "keywords": ["support", "maintenance", "warranty", "bug", "fix", "issue", "problem", "help", "after launch", "ongoing"],
+      "reply": "We provide ongoing support and maintenance after launch. We offer a warranty period to fix any bugs at no extra cost. We also have monthly support packages available.",
+      "context": {
+        "hosting": "We offer hosting services with 99.9% uptime guarantee.",
+        "training": "We provide training for your team on using the platform.",
+        "updates": "We can provide ongoing updates and feature additions."
+      }
+    },
+    {
+      "id": "company",
+      "keywords": ["company", "about", "who are you", "experience", "years", "history", "team", "mission", "location"],
+      "reply": "Prestige Web Room is a software development company based in Nairobi, Kenya. We specialize in building digital infrastructure for African businesses with a focus on fintech, e‑commerce, real estate, and content platforms.",
+      "context": {
+        "experience": "We have over 5 years of experience in software development.",
+        "team": "Our team consists of experienced developers, designers, and project managers.",
+        "mission": "Our mission is to help African businesses scale through technology."
+      }
+    },
+    {
+      "id": "security",
+      "keywords": ["security", "safe", "secure", "encryption", "how is my data secure","data", "privacy", "ndn", "confidential", "intellectual property", "ownership"],
+      "reply": "We take security and confidentiality seriously. We use encryption, follow industry best practices, and are happy to sign NDAs. All project code and intellectual property are fully owned by you after completion.",
+      "context": {
+        "nda": "We can sign NDA agreements upon request.",
+        "encryption": "We use HTTPS and encryption to protect all data.",
+        "ownership": "You own 100% of the code and intellectual property."
+      }
+    },
+    {
+      "id": "default",
+      "keywords": [],
+      "reply": "I'm not sure I fully understand that question. Could you rephrase? Alternatively, you can contact our customer care directly at simonmbithi143@gmail.com or +254 703 433 014 and we'll be happy to help."
+    }
+  ]
+}

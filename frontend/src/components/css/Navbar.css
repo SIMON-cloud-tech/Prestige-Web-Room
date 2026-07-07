@@ -1,0 +1,194 @@
+/* ========== NAVBAR ========== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: gray;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  padding: 10px 0;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ========== LOGO ========== */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.logo-jamsi {
+  color: #EAAA00;
+  font-weight: 700;
+}
+
+.logo-technologies {
+  color: #1B2A4A;
+  font-weight: 300;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  margin-left: 4px;
+}
+
+/* ========== HAMBURGER ========== */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  z-index: 1001;
+}
+
+/* ========== NAV MENU ========== */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #1B2A4A;
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.nav-link:hover {
+  border-bottom-color: #EAAA00;
+  color: #1B2A4A;
+}
+
+.nav-link.active {
+  border-bottom-color: #EAAA00;
+  color: #EAAA00;
+}
+
+/* CTA Button */
+.nav-cta {
+  display: inline-block;
+  background: #EAAA00;
+  color: #ffffff;
+  padding: 10px 28px;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.nav-cta:hover {
+  background: #d49a00;
+  transform: translateY(-1px);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    max-width: 320px;
+    height: 100vh;
+    background: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 40px 24px;
+    transition: right 0.3s ease;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.08);
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-menu.active::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    display: block;
+    padding: 8px 0;
+    border-bottom: none;
+  }
+
+  .nav-link:hover {
+    border-bottom: none;
+    color: #EAAA00;
+  }
+
+  .nav-link.active {
+    border-bottom: none;
+    color: #EAAA00;
+  }
+
+  .nav-cta {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 28px;
+  }
+
+  .navbar-logo {
+    font-size: 1.1rem;
+  }
+
+  .logo-image {
+    width: 34px;
+    height: 34px;
+    margin-right: 6px;
+  }
+}

@@ -1,0 +1,309 @@
+/* ─────────────────────────────────────────────────────────────
+   FOOTER
+   ───────────────────────────────────────────────────────────── */
+
+.footer {
+  background: #1B2A4A; /* Deep Indigo */
+  color: #d1d5db;
+  padding: 3.5rem 1.2rem 1.5rem;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ════════════════════════════════════════════════════════════════
+   SECTION 1: TOP SECTION (3 vertical divs)
+   ════════════════════════════════════════════════════════════════ */
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ─── DIV 1: Company Info ───────────────────────────────────── */
+
+.footer-title {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-title.main {
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-logo-jamsi {
+  color: #EAAA00; /* Amber Gold */
+  font-weight: 700;
+}
+
+.footer-logo-technologies {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  margin-left: 4px;
+}
+
+.footer-text {
+  color: #b0b8c8;
+  line-height: 1.8;
+  font-size: 0.95rem;
+  max-width: 400px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ─── DIV 2: Quick Links ────────────────────────────────────── */
+
+.footer-title.small {
+  font-size: 1.1rem;
+  color: #EAAA00; /* Amber Gold */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #d1d5db;
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-links a:hover {
+  color: #EAAA00; /* Amber Gold */
+}
+
+/* ─── DIV 3: Get In Touch ────────────────────────────────────── */
+
+
+/* ─── WORKING HOURS ──────────────────────────────────────────────── */
+
+.working-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.working-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 0;
+  text-decoration: none;
+  color: #d1d5db;
+}
+
+.working-icon {
+  font-size: 1rem;
+  color: #EAAA00;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.working-link strong {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.working-link p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.82rem;
+  color: #b0b8c8;
+  margin: 0;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+.footer-business-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer-logo-image {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+/* ════════════════════════════════════════════════════════════════
+   SECTION 2: MIDDLE SECTION (2 vertical divs)
+   ════════════════════════════════════════════════════════════════ */
+
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ─── DIV 1: Follow Us ───────────────────────────────────────── */
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.social-icon:hover {
+  background: #EAAA00; /* Amber Gold */
+  transform: translateY(-3px);
+  color: #1B2A4A; /* Deep Indigo */
+}
+
+/* ─── DIV 2: Rights ──────────────────────────────────────────── */
+
+.footer-rights p {
+  color: #6b7a93;
+  font-size: 0.9rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: right;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #6b7a93;
+}
+
+/* ─── WhatsApp Button (Optional) ─────────────────────────────── */
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  background: #25D366;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 0.95rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+}
+
+/* ════════════════════════════════════════════════════════════════
+   RESPONSIVE
+   ════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 900px) {
+  /* Section 1: 3 columns → 2 columns */
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-text {
+    max-width: 100%;
+  }
+
+  /* Section 2: Side by side → Stacked */
+  .footer-middle {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footer-rights p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Section 1: 2 columns → 1 column */
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer {
+    padding: 2.5rem 1rem 1.5rem;
+  }
+
+  .footer-title.main {
+    font-size: 1.3rem;
+  }
+
+  .footer-title.small {
+    font-size: 1rem;
+  }
+
+  .footer-text,
+  .footer-links a,
+  .detail-row p {
+    font-size: 0.9rem;
+  }
+
+  .social-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 1rem;
+  }
+
+  .whatsapp-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+  }
+
+  .footer-rights p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .detail-row {
+    padding: 8px 12px;
+  }
+
+  .detail-row__icon {
+    font-size: 1rem;
+  }
+}

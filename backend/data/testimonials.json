@@ -1,0 +1,52 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "Prestige Web Room transformed our payment tracking. We can now monitor thousands of transactions in real-time with complete confidence. The system has saved us countless hours and improved our members' experience significantly. I highly recommend their services to any financial institution looking to modernize their operations.",
+      "name": "David K.",
+      "title": "Treasurer, Nairobi Sacco",
+      "avatar": "/images/testimonials/david-k.jpg",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "quote": "Working with Prestige Web Room was a game-changer for our business. They delivered a platform that our agents love and our clients trust. The CRM integration alone has transformed how we manage leads and close deals. Their attention to detail and commitment to quality is unmatched.",
+      "name": "Grace M.",
+      "title": "CEO, Prime Properties",
+      "avatar": "/images/testimonials/grace-m.jpg",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "quote": "Prestige Web Room delivered a world-class e-commerce platform that exceeded all our expectations. The multi-vendor marketplace has transformed how we do business, and our sellers are thrilled with the new platform. This has been one of the best investments we've made.",
+      "name": "Michael O.",
+      "title": "Director, Prime Retail",
+      "avatar": "/images/testimonials/michael-o.jpg",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "quote": "We needed a custom content portal that could handle high traffic and rich media. Prestige Web Room built a platform that now serves over 1 million visitors monthly with zero downtime. Their team understood our needs from day one and delivered beyond expectations.",
+      "name": "Sarah W.",
+      "title": "Head of Digital, Kenya News Network",
+      "avatar": "/images/testimonials/sarah-w.jpg",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "quote": "The real estate system built by Prestige Web Room has completely changed how our agents work. The search functionality and CRM integration have increased our lead conversion by over 35%. We can now manage 5,000+ listings effortlessly.",
+      "name": "James K.",
+      "title": "Operations Director, Prime Properties",
+      "avatar": "/images/testimonials/james-k.jpg",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "quote": "I was skeptical about outsourcing software development, but Prestige Web Room proved me wrong. They delivered our fintech dashboard on time and within budget. The M-Pesa integration works flawlessly, and our members love the self-service portal.",
+      "name": "Mary N.",
+      "title": "Chairperson, Nairobi Sacco",
+      "avatar": "/images/testimonials/mary-n.jpg",
+      "rating": 5
+    }
+  ]
+}

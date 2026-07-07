@@ -1,0 +1,141 @@
+{
+  "title": "What We Build",
+  "subtitle": "Tailored solutions that solve real problems for African businesses.",
+  "services": [
+    {
+      "id": 1,
+      "title": "Fintech Platforms",
+      "slug": "fintech-platforms",
+      "icon": "FaMoneyBillWave",
+      "shortDescription": "M‑Pesa integration, payment dashboards, secure transaction logs, and financial analytics.",
+      "fullDescription": "We build secure, enterprise-grade fintech solutions designed specifically for African financial institutions, Saccos, and fintech startups. Our platforms handle thousands of transactions daily with real-time monitoring, advanced fraud detection, and comprehensive financial analytics. We integrate seamlessly with M-Pesa and other mobile money providers, enabling you to offer payment services, digital lending, and savings products to your customers with confidence. Our systems are built with regulatory compliance in mind, ensuring you meet local and international financial standards while delivering a superior user experience.",
+      "features": [
+        "Full M-Pesa API integration for seamless payments",
+        "Real-time transaction monitoring and alerting",
+        "Secure payment gateways with PCI compliance",
+        "Comprehensive financial reporting and analytics dashboards",
+        "Advanced fraud detection and prevention systems",
+        "Digital lending and microfinance modules",
+        "Customer account management and KYC verification",
+        "Automated reconciliation and settlement processing"
+      ],
+      "benefits": [
+        "Built specifically for African markets and regulatory environments",
+        "Fully compliant with Central Bank of Kenya and other regional regulators",
+        "99.9% uptime guaranteed with 24/7 monitoring and support",
+        "End-to-end encryption and enterprise-grade security",
+        "Scalable architecture that grows with your business",
+        "Reduced operational costs through automation",
+        "Faster transaction processing and settlement times"
+      ],
+      "caseStudy": {
+        "title": "Nairobi Sacco — Digital Transformation Success Story",
+        "description": "Nairobi Sacco, with over 50,000 active members, was struggling with manual transaction processing, delayed reconciliations, and limited member access to financial services. They approached us to build a comprehensive digital banking platform that would modernize their operations and improve member experience. We delivered a custom fintech solution featuring real-time payment processing, M-Pesa integration, automated reconciliation, and a member portal for self-service banking. The platform now processes over 10,000 transactions daily, reducing reconciliation time from 3 days to under 2 hours, and has increased member engagement by 45%. Members can now check balances, access loans, and make payments directly from their mobile phones, all in real-time."
+      },
+      "cta": "Start a Fintech Project",
+      "link": "/services/fintech-platforms"
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Solutions",
+      "slug": "ecommerce-solutions",
+      "icon": "FaShoppingCart",
+      "shortDescription": "Online stores, inventory management, vendor portals, and multi-vendor marketplaces.",
+      "fullDescription": "We build powerful, scalable e-commerce platforms that help businesses of all sizes sell online effectively. From custom storefronts for individual retailers to complex multi-vendor marketplaces, our solutions are designed for the unique challenges of the African market. We integrate with local payment providers, support mobile money, and include robust inventory management, order processing, and fulfillment automation. Our platforms are built to handle high traffic volumes, support multiple currencies, and provide a seamless shopping experience across all devices.",
+      "features": [
+        "Custom online storefronts with flexible design options",
+        "Advanced inventory tracking and management systems",
+        "Multi-vendor marketplace capabilities",
+        "Secure payment gateway integration (M-Pesa, Visa, Mastercard)",
+        "Order fulfillment and shipping automation",
+        "Customer relationship management (CRM) tools",
+        "Product catalog management with bulk upload",
+        "Sales analytics and performance dashboards",
+        "Mobile-first responsive design",
+        "Multi-currency and multi-language support"
+      ],
+      "benefits": [
+        "Mobile-first design optimized for African consumers",
+        "Secure payment processing with local payment providers",
+        "Scalable architecture that grows with your business",
+        "Multi-vendor support with automated commission handling",
+        "Reduced operational costs through automation",
+        "Enhanced customer experience with fast load times",
+        "Real-time inventory updates across all channels"
+      ],
+      "caseStudy": {
+        "title": "Prime Retail — Multi-Vendor Marketplace Success",
+        "description": "Prime Retail, a leading retail group in Kenya, wanted to launch a multi-vendor marketplace to bring together over 200 sellers in a single online platform. They needed a solution that could handle thousands of products, support multiple payment methods, and provide real-time inventory tracking across all sellers. We built a custom marketplace platform with integrated inventory management, automated vendor commission calculations, and a seamless checkout experience. The platform now supports 200+ sellers, processes over 5,000 orders monthly, and has generated over 50 million KES in sales in its first year of operation."
+      },
+      "cta": "Start an E-Commerce Project",
+      "link": "/services/ecommerce-solutions"
+    },
+    {
+      "id": 3,
+      "title": "Real Estate Systems",
+      "slug": "real-estate-systems",
+      "icon": "FaBuilding",
+      "shortDescription": "Property listing platforms, CRM integration, advanced search, and client management.",
+      "fullDescription": "We build comprehensive real estate platforms that transform how buyers, sellers, and agents interact with properties. Our solutions feature advanced search capabilities, property listing management, integrated customer relationship management (CRM), and powerful analytics dashboards. Whether you're a real estate agency, a property developer, or a property management firm, we deliver systems that streamline your operations, enhance client relationships, and drive sales. Our platforms are built to be mobile-responsive and support rich media content, including virtual tours, high-resolution images, and video walkthroughs.",
+      "features": [
+        "Property listing and management platforms",
+        "Advanced search with multiple filters and geolocation",
+        "Full CRM integration for lead and client management",
+        "Property analytics and market insights dashboards",
+        "Client portal for viewing and shortlisting properties",
+        "Virtual tour and rich media support",
+        "Automated notification and alert systems",
+        "Agent performance tracking and reporting"
+      ],
+      "benefits": [
+        "Streamlined property management workflows",
+        "Enhanced client relationships through better communication",
+        "Data-driven insights for informed decision-making",
+        "Mobile-responsive design for on-the-go access",
+        "Increased lead conversion through automation",
+        "Improved agent productivity and collaboration",
+        "Higher client satisfaction with personalized experiences"
+      ],
+      "caseStudy": {
+        "title": "Prime Properties — Revolutionizing Real Estate in Nairobi",
+        "description": "Prime Properties is one of Kenya's leading real estate agencies, managing over 5,000 property listings and working with 1,000+ agents across the country. They needed a modern platform to manage their growing portfolio, connect buyers and sellers, and provide better insights to their agents. We developed a custom real estate management system with integrated CRM, advanced search, and real-time analytics. The platform has reduced property listing time by 60%, increased lead conversion by 35%, and provided agents with real-time data to make better decisions."
+      },
+      "cta": "Start a Real Estate Project",
+      "link": "/services/real-estate-systems"
+    },
+    {
+      "id": 4,
+      "title": "News & Content Portals",
+      "slug": "news-content-portals",
+      "icon": "FaNewspaper",
+      "shortDescription": "Scalable publishing platforms with rich media, CMS, and audience analytics.",
+      "fullDescription": "We build high-performance content publishing platforms designed for media houses, content creators, and publishers. Our solutions handle high traffic volumes with ease, support rich multimedia content, and come with powerful content management systems (CMS) that make publishing seamless. We integrate audience analytics, monetization tools, and content optimization features to help you grow your readership and revenue. Our platforms are built with SEO best practices, mobile-first design, and fast load times to ensure an exceptional user experience.",
+      "features": [
+        "Scalable publishing platforms for high traffic",
+        "Rich media support (video, audio, images, interactive content)",
+        "Powerful content management systems (CMS)",
+        "Audience analytics and engagement tracking",
+        "Monetization tools (subscriptions, paywalls, advertising)",
+        "Multi-platform publishing (web, mobile, social media)",
+        "Content optimization and SEO features",
+        "User management and editorial workflows",
+        "Comments and community engagement features"
+      ],
+      "benefits": [
+        "Handles high traffic volumes with ease",
+        "Easy content management for non-technical editors",
+        "Audience insights for data-driven decisions",
+        "Revenue generation through multiple monetization channels",
+        "Improved reader engagement and retention",
+        "Enhanced discoverability through SEO optimization",
+        "Scalable architecture for growing audiences"
+      ],
+      "caseStudy": {
+        "title": "Kenya News Network — Scaling Content for 1M+ Monthly Visitors",
+        "description": "Kenya News Network is a leading digital news publisher with over 1 million monthly visitors and growing. They were struggling with their existing platform, which couldn't handle the growing traffic and lacked modern features for content management and monetization. We built a custom content platform optimized for speed, scalability, and user engagement. The platform now handles millions of monthly page views, supports a team of 50+ editors and journalists, and includes integrated ad monetization and subscription features, helping the publisher triple their digital revenue in the first year."
+      },
+      "cta": "Start a Content Project",
+      "link": "/services/news-content-portals"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "id": 1783244747714,
+      "name": "Joseph Mwangi",
+      "email": "simonmbithi143@gmail.com",
+      "projectType": "Real Estate System",
+      "budget": "KSH. 50,000 – 100,000",
+      "message": "I need a project that allows one to list houses and clients to browse the houses and then rent asap by holding money using escrow service",
+      "submittedAt": "2026-07-05T09:45:47.714Z",
+      "status": "new"
+    },
+    {
+      "id": 1783245044360,
+      "name": "MAURIICE MWANGANGI MBULU",
+      "email": "simonmbithi143@gmail.com",
+      "projectType": "Consulting",
+      "budget": "KSH. 100,000+",
+      "message": "I need a payment gateway",
+      "submittedAt": "2026-07-05T09:50:44.360Z",
+      "status": "new"
+    },
+    {
+      "id": 1783245362138,
+      "name": "Simon Mwangangi",
+      "email": "simonmbithi143@gmail.com",
+      "projectType": "Fintech Platform",
+      "budget": "KSH. 100,000+",
+      "message": "I need an application to receive payments on my behalf",
+      "submittedAt": "2026-07-05T09:56:02.138Z",
+      "status": "new"
+    },
+    {
+      "id": 1783248991069,
+      "name": "Mwangangi Muia",
+      "email": "simonmbithi143@gmail.com",
+      "projectType": "Static & Dynamic website development",
+      "budget": "Under KSH. 10,000",
+      "message": "How much can I pay for a listing website",
+      "submittedAt": "2026-07-05T10:56:31.069Z",
+      "status": "new"
+    }
+  ]
+}

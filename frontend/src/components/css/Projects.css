@@ -1,9 +1,8 @@
 /* Projects Section */
 .projects {
   padding: 80px 24px;
-  background: linear-gradient(rgba(43, 58, 73, 0.788), rgb(226, 241, 90), rgba(125, 148, 148, 0.363), rgba(128, 128, 128, 0.582));
+  background: linear-gradient(rgba(234, 255, 140, 0.363),rgba(170, 175, 98, 0.363),rgba(125, 148, 148, 0.363), rgba(128, 128, 128, 0.582));
 }
-
 .projects-container {
   max-width: 1200px;
   margin: 0 auto;

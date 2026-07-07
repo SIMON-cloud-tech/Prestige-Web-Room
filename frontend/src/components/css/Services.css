@@ -1,7 +1,7 @@
 /* Services Section */
 .services {
   padding: 80px 24px;
-  background: linear-gradient(rgba(255, 217, 0, 0.425), whitesmoke, rgba(125, 148, 148, 0.363), rgba(128, 128, 128, 0.582));
+  background-image: conic-gradient( rgb(214, 206, 206), rgba(228, 253, 115, 0.363),rgba(170, 175, 98, 0.363));
 }
 
 .services-container {
@@ -47,6 +47,7 @@
 }
 
 .services-grid {
+  margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -59,10 +60,11 @@
 }
 
 .service-card {
-  background: #f8f9fc;
+  background: transparent;
   padding: 32px 24px;
   border-radius: 12px;
   border: 1px solid transparent;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.089);
   transition: all 0.3s ease;
   height: 100%;
   display: flex;

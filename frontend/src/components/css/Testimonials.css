@@ -1,7 +1,7 @@
 /* Testimonials Section */
 .testimonials {
   padding: 80px 24px;
-   background: linear-gradient( rgb(200, 202, 181), rgba(128, 128, 128, 0.582), rgba(43, 58, 73, 0.788),rgba(191, 192, 127, 0.363));
+   background: linear-gradient(  rgba(125, 148, 148, 0.363), rgba(128, 128, 128, 0.582),rgba(191, 192, 127, 0.363));
 }
 
 .testimonials-container {

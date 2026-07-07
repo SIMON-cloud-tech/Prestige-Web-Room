@@ -31,7 +31,7 @@ function Projects() {
   const visibleProjects = showAll ? data.projects : data.projects.slice(0, 3);
 
   return (
-    <section className="projects">
+    <section className="projects section-border">
       <div className="projects-container">
         <h2 className="projects-title">{data.title}</h2>
         <p className="projects-subtitle">{data.subtitle}</p>

@@ -1,3 +1,8 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
 /* ─── HERO SECTION ─────────────────────────────────────────────── */
 .hero {
   display: flex;
@@ -8,6 +13,7 @@
   background: #404063;
   padding: 100px 24px 60px;
   max-width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 

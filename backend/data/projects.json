@@ -138,6 +138,49 @@
       }
     },
     {
+  "id": 5,
+  "title": "Energen Solar - Solar Energy Management Platform",
+  "slug": "energen-solar-energy-management-platform",
+  "client": "Energen Systems & General Supplies Ltd",
+  "shortDescription": "A complete solar energy management platform with a public-facing website and a private admin dashboard that empowers the business to manage products, blogs, projects, and testimonials without any technical help.",
+  "image": "/images/case-studies/energen.png",
+  "liveUrl": "https://energen-6t0a.onrender.com",
+  "technologies": ["React", "Vite", "Node.js", "ExpressJS", "React Router", "JSON Data Storage", "JWT Authentication", "Multer"],
+  "featured": true,
+  "completed": "2026-07-18",
+  "caseStudy": {
+    "challenge": "Energen Systems & General Supplies Ltd is a Kenyan solar energy company specializing in solar lighting, water pumps, hot water systems, and power backup solutions. Despite operating since 2010 and installing over 500 systems across the country, the business had no online presence. Potential customers could not view their products, read about their projects, or understand their expertise without calling or visiting the office. The business also needed a way to showcase their work and build trust with potential clients through case studies, blogs, and client testimonials. Managing content such as product updates, blog posts, and project case studies was difficult without a dedicated system, requiring manual updates and technical support for even the smallest changes. This limited their ability to grow, attract new customers, and position themselves as a leader in Kenya's solar energy sector.",
+
+    "solution": "We developed a full-stack solar energy management platform that digitized the entire customer journey from discovery to enquiry:\n\n**1. Public-Facing Website** – A fully responsive website that showcases the business, its products, blog posts, projects, and client testimonials. Visitors can learn about solar solutions, browse products, read articles, and view completed projects, all from a clean, professional interface.\n\n**2. Private Admin Dashboard** – A secure dashboard that gives the business full control over their content. They can add, edit, and delete products with images and pricing, write and publish blog posts, upload project case studies, and manage client testimonials. All changes appear instantly on the live public website.\n\n**3. Product Catalog Management** – A structured product management system where the business can upload solar products with images, descriptions, pricing, and status (offer/normal). The products are displayed on the public website with a search and filter functionality.\n\n**4. Blog Content Marketing** – An integrated blog system that publishes articles about solar energy, installation guides, and industry updates. Each blog post improves SEO visibility and establishes the business as a thought leader in the solar energy sector.\n\n**5. Project Portfolio** – A project management feature that allows the business to showcase completed installations with detailed case studies, including client names, descriptions, procedures, locations, and years.\n\n**6. Testimonials Management** – A client testimonials section that builds trust and credibility by displaying real feedback from satisfied customers.\n\n**7. Shopping Cart & WhatsApp Checkout** – An integrated cart system that allows customers to browse products and initiate a WhatsApp enquiry with a prefilled message containing their order details, making it easy for the business to respond quickly.\n\n**8. Secure Authentication** – JWT-based authentication with httpOnly cookies ensures that only authorized users can access the admin dashboard. Users can also reset their passwords via email OTP.\n\n**9. Responsive Design** – The platform is fully responsive and works perfectly on desktops, tablets, and mobile phones, ensuring that customers can access the site from any device.\n\n**10. SEO Optimized** – The website is built with SEO best practices, including meta tags, keywords, and a blog section that drives organic traffic and improves search engine rankings.",
+
+    "results": "The Energen platform has delivered significant results for the business:\n\n**Enhanced Online Presence** – Energen now has a professional online presence that showcases their products, projects, and expertise. The platform positions them as a credible and established solar energy company in Kenya.\n\n**Empowered Content Management** – The business can now manage all their content independently, without any technical help. They can update products, publish blogs, add projects, and manage testimonials in minutes, saving time and money.\n\n**Improved Customer Engagement** – Visitors can now browse products, read blogs, and view completed projects, leading to better engagement and understanding of the business's capabilities.\n\n**Lead Generation** – The contact form and WhatsApp integration have made it easy for potential customers to enquire about solar solutions, leading to increased leads and enquiries.\n\n**Professional Branding** – The platform has enhanced Energen's professional image and positioned them as a leader in the solar energy sector, building trust with potential clients.\n\n**Scalability** – The platform is built to scale, allowing the business to add new features and functionality as they grow without having to rebuild from scratch.\n\n**Time Savings** – The admin dashboard saves the business time by allowing instant content updates, reducing reliance on external developers for even the smallest changes.",
+
+    "screenshots": [
+      "/images/case-studies/energen-home.png",
+      "/images/case-studies/energen-dashboard.png",
+      "/images/case-studies/energen-products.png",
+      "/images/case-studies/energen-blogs.png"
+    ],
+
+    "metrics": {
+      "projects": "6+ showcased",
+      "blogs": "6 published",
+      "products": "6 listed",
+      "testimonials": "4 featured",
+      "websiteVisitors": "Live and growing",
+      "contentUpdateTime": "From days to minutes"
+    },
+
+    "testimonial": "Energen finally has a professional online presence that showcases our products, projects, and expertise. The admin dashboard has completely transformed how we manage our content – we can now update products, publish blogs, and add projects instantly without any technical help. This is exactly what our business needed to grow and compete in Kenya's solar energy sector.",
+
+    "clientTestimonial": {
+      "name": "Simon M.",
+      "role": "Director, Energen Systems",
+      "avatar": "/images/testimonials/simon-m.jpg"
+    }
+  }
+},
+    {
   "id": 4,
   "title": "ChillieHaven Website - Fresh Chilli & Spice Marketplace",
   "slug": "chilliehaven-website-for-listing-and-selling-chillie-related-products",
